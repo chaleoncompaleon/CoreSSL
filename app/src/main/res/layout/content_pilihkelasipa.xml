@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/kelasipa"
+        android:layout_marginBottom="58dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/bKelas6Ipa"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+
+        android:layout_alignLeft="@+id/bKelas4Ipa"
+        android:layout_alignStart="@+id/bKelas4Ipa"
+        android:layout_alignTop="@+id/bKelas5Ipa"
+        android:background="@drawable/kelas6ipa" />
+
+    <Button
+        android:id="@+id/bKelas5Ipa"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas5ipa"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/bKelas3Ipa"
+        />
+
+    <Button
+        android:id="@+id/bKelas4Ipa"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas4ipa"
+        android:layout_below="@+id/bKelas2Ipa"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <Button
+        android:id="@id/bKelas3Ipa"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas3ipa"
+        android:layout_below="@+id/bKelas1Ipa"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+
+        />
+
+    <Button
+        android:id="@id/bKelas2Ipa"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas2ipa"
+        android:layout_toRightOf="@id/bKelas1Ipa"
+        android:layout_toEndOf="@id/bKelas1Ipa"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        />
+
+    <Button
+        android:id="@id/bKelas1Ipa"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas1ipa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp" />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
