@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/kelasindonesia"
+        android:layout_marginBottom="58dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/bKelas6Indo"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas6indo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/bKelas5Indo"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas5indo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/bKelas3Indo"
+        />
+
+    <Button
+        android:id="@+id/bKelas4Indo"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas4indo"
+        android:layout_below="@+id/bKelas2Indo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <Button
+        android:id="@id/bKelas3Indo"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas3indo"
+        android:layout_below="@+id/bKelas1Indo"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+
+        />
+
+    <Button
+        android:id="@id/bKelas2Indo"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas2indo"
+        android:layout_toRightOf="@id/bKelas1Indo"
+        android:layout_toEndOf="@id/bKelas1Indo"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        />
+
+    <Button
+        android:id="@id/bKelas1Indo"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kelas1indo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp" />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

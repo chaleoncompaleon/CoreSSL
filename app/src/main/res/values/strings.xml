@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CoreSSL</string>
+    <string name="title_activity_main_menu">mainMenu</string>
+    <string name="title_activity_pilihkelasindo">pilihkelasindo</string>
+    <string name="title_activity_tes">tes</string>
+    <string name="dummy">Lorem ipsum sim dolor amet</string>
+</resources>

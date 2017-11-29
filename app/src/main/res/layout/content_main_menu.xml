@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/textMapel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textAlignment="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="20dp">
+
+    <Button
+        android:id="@+id/bIndo"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="@drawable/mainmenuindo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onclick"
+        android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/bMath"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:background="@drawable/mainmenumath"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/bIndo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/bEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:background="@drawable/mainmenuenglish"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/bMath"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/bIPA"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:background="@drawable/mainmenuipa"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/bEnglish"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
