@@ -16,14 +16,11 @@
         android:id="@+id/bKelas6Indo"
         android:layout_width="110dp"
         android:layout_height="60dp"
-        android:background="@drawable/kelas6indo"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="210dp"
-        android:layout_marginLeft="210dp"
-        android:layout_marginTop="15dp"
 
-        />
+        android:layout_alignLeft="@+id/bKelas4Indo"
+        android:layout_alignStart="@+id/bKelas4Indo"
+        android:layout_alignTop="@+id/bKelas5Indo"
+        android:background="@drawable/kelas6indo" />
 
     <Button
         android:id="@+id/bKelas5Indo"
