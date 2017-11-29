@@ -23,6 +23,7 @@
             android:name=".pilihkelasindo"
             android:label="@string/title_activity_pilihkelasindo"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".pilihkelasipa"></activity>
     </application>
 
 </manifest>
