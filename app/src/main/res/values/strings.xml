@@ -4,4 +4,14 @@
     <string name="title_activity_pilihkelasindo">pilihkelasindo</string>
     <string name="title_activity_tes">tes</string>
     <string name="dummy">Lorem ipsum sim dolor amet</string>
+    <string name="isiipakelas4">
+        BAB 1 RANGKA MANUSIA, FUNGSI, DAN PEMELIHARAANNYA
+1.	Rangka adalah susunan tulang-tulang yang saling bersambungan satu sama lainnya sehingga membentuk tubuh.
+2.	Rangka manusia tersusun atas bermacam-macam tulang.
+3.	Rangka memiliki bermacam-macam fungsi.
+4.	Kebiasaan sikap tubuh yang salah sewaktu kecil dapat menyebabkan kelainan pada rangka.
+5.	Kita harus selalu menjaga kesehatan agar rangka kita tidak mudah terserang penyakit.
+
+
+    </string>
 </resources>
